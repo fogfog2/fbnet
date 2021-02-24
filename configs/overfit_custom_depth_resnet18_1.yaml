@@ -39,18 +39,18 @@ datasets:
     train:
         batch_size: 8
         dataset: ['Custom']
-        path: ['data/datasets/custom']
+        path: ['/home/sj/data/datasets/custom']
         split: ['train_files.txt']
         depth_type: ['']
         repeat: [1]
     validation:
         batch_size: 8
         dataset: ['Custom']
-        path: ['data/datasets/custom']
+        path: ['/home/sj/data/datasets/custom']
         split: ['val_files.txt']
         depth_type: ['']
     test:
         dataset: ['Custom']
-        path: ['data/datasets/custom']
+        path: ['/home/sj/data/datasets/custom']
         split: ['val_files.txt']
         depth_type: ['']

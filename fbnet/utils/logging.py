@@ -4,7 +4,7 @@ import os
 from termcolor import colored
 from functools import partial
 
-from packnet_sfm.utils.horovod import on_rank_0
+from fbnet.utils.horovod import on_rank_0
 
 
 def pcolor(string, color, on_color=None, attrs=None):

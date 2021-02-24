@@ -6,10 +6,10 @@ import torch
 
 from glob import glob
 from argparse import Namespace
-from packnet_sfm.utils.depth import load_depth
+from fbnet.utils.depth import load_depth
 from tqdm import tqdm
 
-from packnet_sfm.utils.depth import load_depth, compute_depth_metrics
+from fbnet.utils.depth import load_depth, compute_depth_metrics
 
 
 def parse_args():

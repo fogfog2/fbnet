@@ -128,7 +128,7 @@ class SfmModel_depth(nn.Module):
             image = torch.flip(image,[3])
         image = torch.cat([image, disp] , 1)
         output = self.depth_net2(image)
-        make_list(output)        
+        inv_depths = make_list(output)        
         # If upsampling depth maps
         if self.upsample_depth_maps:
             inv_depths = interpolate_scales(

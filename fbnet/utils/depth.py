@@ -5,8 +5,8 @@ import torch
 import torchvision.transforms as transforms
 from matplotlib.cm import get_cmap
 
-from packnet_sfm.utils.image import load_image, gradient_x, gradient_y, flip_lr, interpolate_image
-from packnet_sfm.utils.types import is_seq, is_tensor
+from fbnet.utils.image import load_image, gradient_x, gradient_y, flip_lr, interpolate_image
+from fbnet.utils.types import is_seq, is_tensor
 
 
 def load_depth(file):

@@ -3,9 +3,9 @@
 import numpy as np
 import os
 
-from packnet_sfm.utils.image import write_image
-from packnet_sfm.utils.depth import write_depth, inv2depth, viz_inv_depth
-from packnet_sfm.utils.logging import prepare_dataset_prefix
+from fbnet.utils.image import write_image
+from fbnet.utils.depth import write_depth, inv2depth, viz_inv_depth
+from fbnet.utils.logging import prepare_dataset_prefix
 
 
 def save_depth(batch, output, args, dataset, save):

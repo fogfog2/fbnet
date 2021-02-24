@@ -6,7 +6,7 @@ import torch.nn.functional as funct
 from functools import lru_cache
 from PIL import Image
 
-from packnet_sfm.utils.misc import same_shape
+from fbnet.utils.misc import same_shape
 
 
 def load_image(path):

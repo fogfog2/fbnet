@@ -1,6 +1,6 @@
 # Copyright 2020 Toyota Research Institute.  All rights reserved.
 
-from packnet_sfm.utils.types import is_list
+from fbnet.utils.types import is_list
 
 ########################################################################################################################
 

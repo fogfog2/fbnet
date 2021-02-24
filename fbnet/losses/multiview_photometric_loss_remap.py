@@ -425,7 +425,7 @@ class MultiViewPhotometricLossRemap(LossBase):
             loss += self.calc_smoothness_loss(inv_depths, images)
         
         if self.depth_reconstruction_weight > 0.0:
-            loss += self.calc_depth_matching_loss(remapap_depth, inv_depths, self.depth_reconstruction_weight)
+            loss += self.calc_depth_matching_loss(remap_depth, inv_depths, self.depth_reconstruction_weight)
 
         # Return losses and metrics
         return {

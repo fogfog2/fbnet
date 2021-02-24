@@ -4,11 +4,11 @@ import torch
 from datetime import datetime
 from yacs.config import CfgNode
 
-from packnet_sfm.utils.logging import s3_url, prepare_dataset_prefix
-from packnet_sfm.utils.horovod import on_rank_0
-from packnet_sfm.utils.types import is_cfg, is_list
-from packnet_sfm.utils.misc import make_list
-from packnet_sfm.utils.load import load_class, backwards_state_dict
+from fbnet.utils.logging import s3_url, prepare_dataset_prefix
+from fbnet.utils.horovod import on_rank_0
+from fbnet.utils.types import is_cfg, is_list
+from fbnet.utils.misc import make_list
+from fbnet.utils.load import load_class, backwards_state_dict
 
 
 def prep_dataset(config):
